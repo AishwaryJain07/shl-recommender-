@@ -1,0 +1,10 @@
+# Pinned runtime dependencies (BUILD_SPEC §12).
+
+python-dotenv==1.2.2      # .env loading (config)
+rank-bm25==0.2.2          # BM25 lexical retrieval (Phase 1)
+requests==2.32.5          # LLM client (Groq OpenAI-compatible) + eval harness
+fastapi==0.121.2          # API framework (Phase 3)
+uvicorn==0.38.0           # ASGI server
+pydantic==2.12.4          # request/response validation
+
+# TODO(Phase 4b, optional): fastembed  # local dense embeddings for RRF fusion

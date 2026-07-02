@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Env / secrets
+.env
+
+# Raw catalog is re-fetchable via scripts/fetch_catalog.py — not tracked.
+# NOTE: data/catalog_normalized.json IS tracked (bundled for deploy, BUILD_SPEC §12).
+data/shl_catalog_raw.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+# Render Blueprint (infrastructure-as-code) for one-click deploy.
+# Native Python runtime (lighter cold start than Docker on the free tier).
+# The Dockerfile is provided as an alternative if you prefer a container.
+services:
+  - type: web
+    name: shl-recommender
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health          # Render pings this; keep it trivial (§7)
+    envVars:
+      - key: GROQ_API_KEY             # set in the Render dashboard (secret; not synced)
+        sync: false
+      - key: PYTHON_VERSION
+        value: "3.11.9"
+      # Optional overrides (defaults live in app/config.py):
+      # - key: LLM_MODEL
+      #   value: llama-3.1-8b-instant

@@ -1,0 +1,19 @@
+# Keep the image small and never bake in secrets.
+.env
+.git/
+.gitignore
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+tests/
+eval/
+sample_conversations/
+scripts/
+data/shl_catalog_raw.json
+*.md
+!README.md
+.vscode/
+.idea/
+SHL_AI_Intern_Assignment.pdf

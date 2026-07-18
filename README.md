@@ -129,5 +129,4 @@ committed, so boot needs no network fetch.
 ## AI tools used
 
 Built with Claude Code (Anthropic) for implementation, debugging, and the eval
-harness. All design decisions in [APPROACH.md](APPROACH.md) are ones I can
-defend in a technical interview.
+harness. All design decisions in [APPROACH.md](APPROACH.md) 

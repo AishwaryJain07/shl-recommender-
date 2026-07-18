@@ -1,4 +1,4 @@
-# SHL Conversational Assessment Recommender
+<img width="1914" height="1078" alt="Screen Recording 2026-07-18 145601 (1)" src="https://github.com/user-attachments/assets/3477663d-2be2-47a3-a6dd-0311138643f1" /># SHL Conversational Assessment Recommender
 
 A stateless FastAPI service that turns a vague hiring intent (e.g. *"I'm hiring a
 Java developer"*) into a grounded shortlist of SHL assessments through dialogue —
@@ -6,6 +6,7 @@ built for the SHL Labs AI Intern take-home assignment.
 
 Live API: **https://shl-recommender-2pul.onrender.com/docs**
 Design source of truth: [BUILD_SPEC.md](BUILD_SPEC.md) · Approach write-up: [APPROACH.md](APPROACH.md)
+<img width="1914" height="1078" alt="Screen Recording 2026-07-18 145601 (1)" src="https://github.com/user-attachments/assets/d8a44120-339c-4686-9995-041cd96ab876" />
 
 ## Status
 

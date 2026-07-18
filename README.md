@@ -1,4 +1,4 @@
-<img width="1914" height="1078" alt="Screen Recording 2026-07-18 145601 (1)" src="https://github.com/user-attachments/assets/3477663d-2be2-47a3-a6dd-0311138643f1" /># SHL Conversational Assessment Recommender
+# SHL Conversational Assessment Recommender
 
 A stateless FastAPI service that turns a vague hiring intent (e.g. *"I'm hiring a
 Java developer"*) into a grounded shortlist of SHL assessments through dialogue —
